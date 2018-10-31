@@ -32,11 +32,6 @@ public class StudentController {
 	@RequestMapping(value = "/students", method = RequestMethod.GET)
 	public List<Student> getAllStudents() {
 		List<Student> list = null;
-		System.out.println("confliting");
-		System.out.println("confliting");
-		System.out.println("confliting");
-		System.out.println("confliting");
-		System.out.println("confliting");
 		LOGGER.debug("list of students from the api "+list.toString());
 		LOGGER.debug("exit from into StudentController-getAllStudents() method ");
 		return list;
